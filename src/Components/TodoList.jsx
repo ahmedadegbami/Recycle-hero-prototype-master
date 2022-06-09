@@ -1,5 +1,5 @@
-import styles from "./TodoList.module.css"
-import cx from "classnames"
+import styles from "./TodoList.module.css";
+import cx from "classnames";
 const TodoList = () => {
   return (
     <section className="vh-100" style={{ backgroundColor: "#47c6a3" }}>
@@ -12,9 +12,7 @@ const TodoList = () => {
                   <span className="h2 me-2">Pick up your tools</span>{" "}
                   <span className="badge bg-danger">checklist</span>
                 </p>
-                <p className="text-muted pb-2">
-                  09/06/2022 • Rider - Ahmed1234
-                </p>
+                <p className="text-muted pb-2">09/06/2022 • Hero - Ahmed1234</p>
 
                 <ul className="list-group rounded-0">
                   <li className="list-group-item border-0 d-flex align-items-center ps-0">
@@ -78,7 +76,7 @@ const TodoList = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default TodoList
+export default TodoList;

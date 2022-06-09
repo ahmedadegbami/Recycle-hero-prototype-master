@@ -12,9 +12,7 @@ const CustomerItems = () => {
                   <div className="d-flex justify-content-between flex-wrap align-items-center">
                     <h4>Customers</h4>
 
-                    <p className="text-muted mb-0 pb-2">
-                      09/06/2022 • Rider - Ahmed1234
-                    </p>
+                    <p className="text-muted mb-0 pb-2">09/06/2022</p>
                   </div>
                 </div>
 
