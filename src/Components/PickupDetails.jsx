@@ -1,6 +1,6 @@
-import React from "react"
-import { ListGroup } from "react-bootstrap"
-import MyNavbar from "./MyNavbar"
+import React from "react";
+import { ListGroup } from "react-bootstrap";
+import MyNavbar from "./MyNavbar";
 
 const PickupDetails = () => {
   return (
@@ -39,7 +39,7 @@ const PickupDetails = () => {
                     <p className="mb-0">Address:</p>
                     <div class="ps-2">
                       <span class="text-sm opacity-8">
-                        730 Dyonisie Wolf Bucharest, RO 010458
+                        1 Recyclehero Avenue, Hamburg
                       </span>
                     </div>
                   </div>
@@ -59,7 +59,7 @@ const PickupDetails = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default PickupDetails
+export default PickupDetails;

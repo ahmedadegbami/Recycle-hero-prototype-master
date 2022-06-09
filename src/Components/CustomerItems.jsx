@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const CustomerItems = () => {
   return (
@@ -30,8 +30,8 @@ const CustomerItems = () => {
                   <tbody>
                     <tr>
                       <th scope="row">1</th>
-                      <td>Ahmed Adegbami</td>
-                      <td>Available</td>
+                      <td>Jonathan Müller</td>
+                      <td>In progress</td>
                       <td>
                         <button type="submit" className="btn btn-success ms-1">
                           Start
@@ -41,7 +41,7 @@ const CustomerItems = () => {
                     <tr>
                       <th scope="row">2</th>
                       <td>Hilary Wisdom</td>
-                      <td>In progress</td>
+                      <td>Available</td>
                       <td>
                         <button type="submit" className="btn btn-success ms-1">
                           Start
@@ -54,7 +54,7 @@ const CustomerItems = () => {
                       <td>Finished</td>
                       <td>
                         <button type="submit" className="btn btn-danger">
-                          Completed
+                          Done
                         </button>
                       </td>
                     </tr>
@@ -72,7 +72,7 @@ const CustomerItems = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default CustomerItems
+export default CustomerItems;
