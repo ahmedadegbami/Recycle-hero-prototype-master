@@ -1,20 +1,20 @@
-import React from "react"
+import React from "react";
 import {
   FloatingLabel,
   Form,
   FormControl,
   FormGroup,
-  InputGroup,
-} from "react-bootstrap"
-import MyNavbar from "./MyNavbar"
+  InputGroup
+} from "react-bootstrap";
+import MyNavbar from "./MyNavbar";
 
 const Documentation = () => {
   const [formState, setFormState] = React.useState({
     isGlass: false,
     isPaper: false,
     isDeposit: false,
-    isClothes: false,
-  })
+    isClothes: false
+  });
 
   return (
     <div>
@@ -30,7 +30,7 @@ const Documentation = () => {
                       <h4>Documentation</h4>
 
                       <p className="text-muted mb-0 pb-2">
-                        09/06/2022 • Rider - Ahmed1234
+                        09/06/2022 • Hero - Ahmed1234
                       </p>
                     </div>
                   </div>
@@ -42,7 +42,7 @@ const Documentation = () => {
                       onChange={(e) =>
                         setFormState((prevState) => ({
                           ...prevState,
-                          isGlass: e.target.checked,
+                          isGlass: e.target.checked
                         }))
                       }
                     />
@@ -53,7 +53,7 @@ const Documentation = () => {
                       onChange={(e) =>
                         setFormState((prevState) => ({
                           ...prevState,
-                          isPaper: e.target.checked,
+                          isPaper: e.target.checked
                         }))
                       }
                     />
@@ -64,7 +64,7 @@ const Documentation = () => {
                       onChange={(e) =>
                         setFormState((prevState) => ({
                           ...prevState,
-                          isDeposit: e.target.checked,
+                          isDeposit: e.target.checked
                         }))
                       }
                     />
@@ -75,7 +75,7 @@ const Documentation = () => {
                       onChange={(e) =>
                         setFormState((prevState) => ({
                           ...prevState,
-                          isClothes: e.target.checked,
+                          isClothes: e.target.checked
                         }))
                       }
                     />
@@ -149,7 +149,7 @@ const Documentation = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Documentation
+export default Documentation;
