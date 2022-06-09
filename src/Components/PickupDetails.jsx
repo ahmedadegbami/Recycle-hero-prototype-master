@@ -25,13 +25,12 @@ const PickupDetails = () => {
                     <ListGroup.Item>- 2 Boxes of Glasses</ListGroup.Item>
                     <ListGroup.Item>- 1 Box of paper</ListGroup.Item>
                     <ListGroup.Item>- 60 Deposits</ListGroup.Item>
-                    <ListGroup.Item>- 10kg of clothes</ListGroup.Item>
                   </ListGroup>
                   <div class="d-flex p-2 ">
                     <p className="mb-0">Phone:</p>
 
                     <div class="ps-2">
-                      <span class="text-sm opacity-8">(+40) 772 100 200</span>
+                      <span class="text-sm opacity-8">(+49) 172 100 2000</span>
                     </div>
                   </div>
 
